@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to left, #800000 0%, #000000 100%);
+}
+
+.parallaxHeader { 
+    /* Full height */
+    height: 100vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paraImg1 {
+    background-image: url("../images/IronChef.jpg");
+}
+
+.parallaxBody {
+    /* Full height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paraImg2 {
+    background-image: url("../images/IronChefBattle.jpeg");
+}
+
+@media only screen and (max-width: 800px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+}
